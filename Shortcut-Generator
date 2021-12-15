@@ -1,0 +1,37 @@
+#!/bin/bash
+
+cd ~/Desktop
+
+echo "Save As:"
+read varsave
+echo \
+
+echo "Username for system"
+read varname
+echo \
+
+echo "Bashfile:"
+read varbash
+echo \
+
+
+
+> $varsave.desktop
+
+echo "[Desktop Entry]" >> $varsave.desktop
+echo "Type=Application" >> $varsave.desktop
+echo "Name=$varsave" >> $varsave.desktop
+echo "Comment=cgminer shortcut" >> $varsave.desktop
+echo "Exec=/home/$varname/.$varbash" >> $varsave.desktop
+echo "Icon=/home/$varname/Icarus-cgminer/cgminer/CG.png" >> $varsave.desktop
+echo "Terminal=true" >> $varsave.desktop
+
+cd
+
+> .$varbash
+
+echo "#!/bin/bash" >> .$varbash
+echo "cd Icarus-cgminer" >> .$varbash
+echo "./$varbash" >> .$varbash
+
+chmod +x .$varbash
