@@ -76,22 +76,22 @@ If all is done well, you should see something like this.
 
 # Using the Shortcut-Generator
 
-First run the Shortcut-Generator
+First run the Shortcut-Generator.
 
 	  $ ./Shortcut-Generator
 
-Second, choose a name to save Shortcut as use hyphens or underscores instead off spaces
+Second, choose a name to save Shortcut as use hyphens or underscores instead off spaces.
 
 	  Save As:
 	  Example
 
 
-Third, type in the system username. example pi if running on Raspberry Pi
+Third, type in the system username. example pi if running on Raspberry Pi.
 
 	  Username for system:
 	  pi
 
-Fourth, type in the name of the file you made with the worker-generator
+Fourth, type in the name of the file you made with the worker-generator.
 
 	  Bash File:
 	  Example
