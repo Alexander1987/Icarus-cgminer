@@ -1,6 +1,6 @@
 # Icarus-cgminer
 
-# Currently ony works up to Raspi Buster OS
+# Currently only works up to Raspberry Pi Buster OS
 
 
 cgminer for BlockErupters and Bitmain USBs
