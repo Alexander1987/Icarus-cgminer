@@ -74,3 +74,30 @@ If all is done well, you should see something like this.
 	 [1970-01-01 02:37:37.283] Accepted 47c1407b Diff 4/1 AMU 0
 	 [1970-01-01 02:37:41.063] Accepted b6200d85 Diff 1/1 AMU 0
 
+# Using the Shortcut-Generator
+
+First run the Shortcut-Generator
+
+	  $ ./Shortcut-Generator
+
+Second, choose a name to save Shortcut as use hyphens or underscores instead off spaces
+
+	  Save As:
+	  Example
+
+
+Third, type in the system username. example pi if running on Raspberry Pi
+
+	  Username for system:
+	  pi
+
+Fourth, type in the name of the file you made with the worker-generator
+
+	  Bash File:
+	  Example
+
+Once done there should be a Shortcut on the desktop of your machine.
+
+When doubletapping the shortcut select run in terminal option.
+
+
