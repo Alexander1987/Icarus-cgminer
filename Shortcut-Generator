@@ -6,11 +6,11 @@ echo "Save As:"
 read varsave
 echo \
 
-echo "Username for system"
+echo "Username for system:"
 read varname
 echo \
 
-echo "Bashfile:"
+echo "Bash File:"
 read varbash
 echo \
 
