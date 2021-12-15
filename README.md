@@ -37,6 +37,7 @@ Fifth, Now you can Insert any extra arguments for cgminer, If none just hit ente
 	  Extra Arguments For cgminer:
 	  Example: --suggest-diff 32
 	  **If none hit Enter**
+	  --suggest-diff 1
 
 Once that's done, run the script just made with ./ infront of the name.
 
