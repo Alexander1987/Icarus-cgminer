@@ -26,6 +26,8 @@ echo "Exec=/home/$varname/.$varbash" >> $varsave.desktop
 echo "Icon=/home/$varname/Icarus-cgminer/cgminer/CG.png" >> $varsave.desktop
 echo "Terminal=true" >> $varsave.desktop
 
+chmod +x $varsave.desktop
+
 cd
 
 > .$varbash
