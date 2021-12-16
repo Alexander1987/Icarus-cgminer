@@ -35,13 +35,6 @@ Forth, Insert worker password.
 	  Worker Password:
 	  x
 
-Fifth, Now you can Insert any extra arguments for cgminer, If none just hit enter.
-
-	  Extra Arguments For cgminer:
-	  Example: --suggest-diff 32
-	  **If none hit Enter**
-	  --suggest-diff 1
-
 Once that's done, run the script just made with ./ infront of the name.
 
 	$ ./Example
@@ -80,18 +73,7 @@ First run the Shortcut-Generator.
 
 	  $ ./Shortcut-Generator
 
-Second, choose a name to save Shortcut as use hyphens or underscores instead off spaces.
-
-	  Save As:
-	  Example
-
-
-Third, type in the system username. example pi if running on Raspberry Pi.
-
-	  Username for system:
-	  pi
-
-Fourth, type in the name of the file you made with the worker-generator.
+Second, type in the name of the file you made with the worker-generator.
 
 	  Bash File:
 	  Example
