@@ -16,17 +16,11 @@ echo "Worker Password:"
 read varpass
 echo \
 
-echo "Extra Arguments For cgminer:"
-echo "Example: --suggest-diff 32"
-echo "**If None hit Enter**"
-read varextra
-
-
 > $varsave
 
 echo "#!/bin/bash" >> $varsave
 echo "cd cgminer" >> $varsave
-echo "sudo ./cgminer -o $varlink -u $varworker -p $varpass $varextra" >> $varsave
+echo "sudo ./cgminer -o $varlink -u $varworker -p $varpass --suggest-diff 1" >> $varsave
 
 chmod +x $varsave
 
